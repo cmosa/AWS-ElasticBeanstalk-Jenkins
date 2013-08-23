@@ -60,6 +60,7 @@ public class HelloWorldBuilder extends Builder {
         else
             listener.getLogger().println("Hello, "+name+"!");
         return true;
+        
     }
 
     // Overridden for better type safety.
